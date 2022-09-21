@@ -10,13 +10,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    overflow: hidden;
+    overflow-x: hidden;
     color: var(--text-color);
 }
 
 :root {
     --nav-color: #24221F;
     --bg-color:#363F45 ;
+    --box-color: #4A565E;
     --green-color: #94BFA7;
     --text-color: #FFFFFF;
 }
@@ -82,10 +83,40 @@ header button a {
 }
 
 .mieux-notees {
-    margin: 20px 40px;
     display: flex;
+    flex-direction: column;
 }
 
-/* .mieux-notees .description {
+.mieux-notees .description {
+    padding: 60px 200px;
+    align-items: center;
+    background-color: var(--box-color);
+}
 
-} */
+.mieux-notees .description strong {
+    color: var(--green-color);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mieux-notees .series {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 50px 50px; 
+    margin: 100px;
+}
+
+.mieux-notees .series img {
+    object-fit: cover;
+    width: 392px;
+    height: 588px;
+}
+
+.mieux-notees .series img:hover {
+    cursor: pointer;
+    
+}
+
+
