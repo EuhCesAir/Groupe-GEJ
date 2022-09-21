@@ -30,7 +30,13 @@
             </div>
 
             <div class="series">
-                <img src="assets/big_bang_theory.jpg" alt="Big Bang Theory">
+                <div class="container">
+                    <img src="assets/big_bang_theory.jpg" alt="Big Bang Theory" class="image">
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                </div>
+                
                 <img src="assets/the_flash.jpg" alt="Friends">
                 <img src="assets/dexter.jpg" alt="Dexter">
                 <img src="assets/peaky_blinders.jpg" alt="Peaky Blinders">
