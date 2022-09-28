@@ -47,9 +47,9 @@ CREATE TABLE Series
     id_note int NOT NULL,
     id_genre int NOT NULL,
     nom_serie varchar(120) NOT NULL,
+    description_serie varchar(300) NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (id_commentaire) REFERENCES Commentaires(id),
     FOREIGN KEY (id_note) REFERENCES Notes(id),
     FOREIGN KEY (id_genre) REFERENCES Genres(id)
 );
-
