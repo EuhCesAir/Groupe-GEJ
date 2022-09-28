@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styless.css">
+        <link rel="stylesheet" href="style.css">
         <title>SériesTV | Acceuil</title>
     </head>
     <body>
@@ -22,6 +22,8 @@
         </header>
 
         <section class="mieux-notees">
+
+            <!-- Description du site -->
             <div class="description">
                 <h4>
                     Bienvenue sur <strong>JugezTV</strong>, votre nouveau site préféré de notation de séries !
@@ -29,22 +31,66 @@
                 </h4>
             </div>
 
+            <!-- Affichage des séries -->
             <div class="series">
+
                 <div class="container">
                     <img src="assets/big_bang_theory.jpg" alt="Big Bang Theory" class="image">
                     <div class="overlay">
-                        <div class="text">Hello World</div>
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
                     </div>
                 </div>
-                
-                <img src="assets/the_flash.jpg" alt="Friends">
-                <img src="assets/dexter.jpg" alt="Dexter">
-                <img src="assets/peaky_blinders.jpg" alt="Peaky Blinders">
-                <img src="assets/resident_evil.jpg" alt="Resident Evil">
-                <img src="assets/squid_game.jpg" alt="Squid Game">
-                <img src="assets/teen_wolf.jpg" alt="Teen Wolf">
-                <img src="assets/the_100.jpg" alt="The 100">
+
+                <div class="container">
+                    <img src="assets/the_flash.jpg" alt="The Flash" class="image">
+                    <div class="overlay">
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="assets/dexter.jpg" alt="Dexter" class="image">
+                    <div class="overlay">
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="assets/peaky_blinders.jpg" alt="Peaky Blinders" class="image">
+                    <div class="overlay">
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="assets/resident_evil.jpg" alt="Resident Evil" class="image">
+                    <div class="overlay">
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="assets/squid_game.jpg" alt="Squid Game" class="image">
+                    <div class="overlay">
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="assets/teen_wolf.jpg" alt="Teen Wolf" class="image">
+                    <div class="overlay">
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="assets/the_100.jpg" alt="The 100">
+                    <div class="overlay">
+                        <div class="text">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</div>
+                    </div>
+                </div>
             </div>
+
         </section>
 
         <footer>
