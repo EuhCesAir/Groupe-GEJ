@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style5.css">
         <title>SériesTV | Acceuil</title>
     </head>
     <body>
@@ -33,7 +33,6 @@
 
             <!-- Affichage des séries -->
             <div class="series">
-
                 <div class="container">
                     <img src="assets/big_bang_theory.jpg" alt="Big Bang Theory" class="image">
                     <div class="overlay">
@@ -90,11 +89,28 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
-        <footer>
+        <footer>        
+            <div class="top-footer">
+                <a href="#">Mentions légales</a>
+                <a href="#">Conditions d’utilisation</a>
+                <a href="#">Contacts</a>  
+                <a href="#">Test</a> 
+            </div>  
 
+            <div class="copyright">
+                <p>
+                    &copy;
+
+                    <!-- Mise à jour automatique de la date -->
+                    <script>
+                    document.write(new Date().getFullYear());
+                    </script>
+
+                    Groupe GEJ
+                </p>
+            </div>  
         </footer>
 
         <!-- Script pour maintenir le bouton appuyé -->
