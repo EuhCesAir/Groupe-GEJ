@@ -68,8 +68,8 @@ nav ul li.active a {
 
 header button {
     border: solid 0px;
-    border-radius: 10px;
     color: var(--nav-color);
+    border-radius: 5px;
     background: var(--green-color);
     padding: 10px;
     transition: all ease 0.5s;
@@ -155,3 +155,31 @@ header button a {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+
+footer {
+    padding: 40px 300px;
+    background-color: var(--box-color);
+}
+
+footer a {
+    transition: all ease 0.8s;
+}
+
+footer a:hover {
+    color: var(--green-color);
+}
+
+footer .top-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+
