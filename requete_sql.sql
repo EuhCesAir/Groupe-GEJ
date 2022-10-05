@@ -5,9 +5,8 @@ DROP TABLE IF EXISTS Utilisateurs;
 CREATE TABLE Utilisateurs
 (
     id int AUTO_INCREMENT,
-    nom varchar(80) NOT NULL,
-    prenom varchar(80) NOT NULL,
-    mdp varchar(120) NOT NULL,
+    pseudo varchar(80) NOT NULL,
+    mdp varchar(255) NOT NULL,
     PRIMARY KEY (id)
 );
 
