@@ -42,11 +42,12 @@ DROP TABLE IF EXISTS Series;
 CREATE TABLE Series
 (
     id int AUTO_INCREMENT,
-    id_commentaire int NOT NULL,
-    id_note int NOT NULL,
-    id_genre int NOT NULL,
+    id_commentaire int DEFAULT NULL,
+    id_note int DEFAULT NULL,
+    id_genre int DEFAULT NULL,
     nom_serie varchar(120) NOT NULL,
     description_serie varchar(300) NOT NULL,
+    image_serie varchar(255) NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (id_commentaire) REFERENCES Commentaires(id),
     FOREIGN KEY (id_note) REFERENCES Notes(id),
