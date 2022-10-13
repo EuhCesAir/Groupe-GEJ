@@ -1,7 +1,12 @@
 DROP DATABASE IF EXISTS series_tv;
 CREATE DATABASE series_tv;
 
+DROP TABLE IF EXISTS Series;
+DROP TABLE IF EXISTS Genres;
+DROP TABLE IF EXISTS Notes;
+DROP TABLE IF EXISTS Commentaires;
 DROP TABLE IF EXISTS Utilisateurs;
+
 CREATE TABLE Utilisateurs
 (
     id int AUTO_INCREMENT,
@@ -10,7 +15,7 @@ CREATE TABLE Utilisateurs
     PRIMARY KEY (id)
 );
 
-DROP TABLE IF EXISTS Commentaires;
+
 CREATE TABLE Commentaires
 (
     id int AUTO_INCREMENT,
@@ -20,7 +25,7 @@ CREATE TABLE Commentaires
     FOREIGN KEY (id_utilisateur) REFERENCES Utilisateurs(id)
 );
 
-DROP TABLE IF EXISTS Notes;
+
 CREATE TABLE Notes
 (
     id int AUTO_INCREMENT,
@@ -30,7 +35,7 @@ CREATE TABLE Notes
     FOREIGN KEY (id_utilisateur) REFERENCES Utilisateurs(id)
 );
 
-DROP TABLE IF EXISTS Genres;
+
 CREATE TABLE Genres
 (
     id int AUTO_INCREMENT,
@@ -38,7 +43,7 @@ CREATE TABLE Genres
     PRIMARY KEY (id)
 );
 
-DROP TABLE IF EXISTS Series;
+
 CREATE TABLE Series
 (
     id int AUTO_INCREMENT,
