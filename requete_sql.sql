@@ -11,6 +11,9 @@ CREATE TABLE Utilisateurs
 (
     id int AUTO_INCREMENT,
     pseudo varchar(80) NOT NULL,
+    email varchar(120) NOT NULL,
+    nom varchar(60) NOT NULL,
+    prenom varchar(60) NOT NULL,
     mdp varchar(255) NOT NULL,
     PRIMARY KEY (id)
 );
