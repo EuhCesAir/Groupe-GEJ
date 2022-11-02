@@ -1,8 +1,8 @@
 <?php
 // Informations d'identification
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'jojo');
-define('DB_PASSWORD', 'Chat97421');
+define('DB_USERNAME', 'btssio');
+define('DB_PASSWORD', 'btssio');
 define('DB_NAME', 'serie_tv');
  
 // Connexion � la base de donn�es MySQL 
